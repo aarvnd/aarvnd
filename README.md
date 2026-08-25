@@ -55,6 +55,22 @@ open_to:
 
 <img width="100%" src="assets/wind-divider.svg" alt="" />
 
+<!-- ═══════════════ THE ASCENT ═══════════════ -->
+
+## 🥾 The Ascent
+
+<div align="center">
+
+<img width="340" src="assets/journey.gif" alt="Walking through a wildflower meadow toward the ice mountain" />
+
+<br/>
+
+<sub>_Every build is a climb — one step, one commit at a time._ 🏔️🦋</sub>
+
+</div>
+
+<img width="100%" src="assets/wind-divider.svg" alt="" />
+
 <!-- ═══════════════ THE GEAR ═══════════════ -->
 
 ## 🧗 The Gear
