@@ -1,0 +1,214 @@
+<svg viewBox="0 0 1400 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Arvind — ice mountains banner">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#081422"/>
+      <stop offset="0.45" stop-color="#12365c"/>
+      <stop offset="0.8" stop-color="#3d7ea8"/>
+      <stop offset="1" stop-color="#8fd0f0"/>
+    </linearGradient>
+    <radialGradient id="sunGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff7e0" stop-opacity="0.95"/>
+      <stop offset="0.35" stop-color="#ffe9b8" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#ffe9b8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="mBack" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#33608c"/>
+      <stop offset="1" stop-color="#24466b"/>
+    </linearGradient>
+    <linearGradient id="mMid" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#20415f"/>
+      <stop offset="1" stop-color="#152c44"/>
+    </linearGradient>
+    <linearGradient id="mFront" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#122539"/>
+      <stop offset="1" stop-color="#0a1726"/>
+    </linearGradient>
+    <linearGradient id="meadow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0d2e33"/>
+      <stop offset="1" stop-color="#071a1e"/>
+    </linearGradient>
+    <linearGradient id="tx" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#a8dcf5"/>
+    </linearGradient>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+  </defs>
+
+  <!-- SKY -->
+  <rect width="1400" height="420" fill="url(#sky)"/>
+
+  <!-- STARS (twinkle) -->
+  <g fill="#eaf6ff">
+    <circle cx="140" cy="52" r="1.6"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.6s" repeatCount="indefinite"/></circle>
+    <circle cx="320" cy="86" r="1.2"><animate attributeName="opacity" values="1;0.25;1" dur="4.4s" repeatCount="indefinite"/></circle>
+    <circle cx="520" cy="40" r="1.5"><animate attributeName="opacity" values="0.3;1;0.3" dur="5.1s" repeatCount="indefinite"/></circle>
+    <circle cx="760" cy="70" r="1.2"><animate attributeName="opacity" values="0.9;0.2;0.9" dur="3.9s" repeatCount="indefinite"/></circle>
+    <circle cx="980" cy="46" r="1.6"><animate attributeName="opacity" values="0.25;1;0.25" dur="4.7s" repeatCount="indefinite"/></circle>
+    <circle cx="1180" cy="92" r="1.3"><animate attributeName="opacity" values="1;0.3;1" dur="3.4s" repeatCount="indefinite"/></circle>
+    <circle cx="1310" cy="58" r="1.5"><animate attributeName="opacity" values="0.3;1;0.3" dur="5.6s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- SUN (breathing glow) -->
+  <g transform="translate(1085,168)">
+    <circle r="120" fill="url(#sunGlow)">
+      <animate attributeName="opacity" values="0.75;1;0.75" dur="8s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1" keyTimes="0;.5;1"/>
+    </circle>
+    <circle r="26" fill="#fff4d6"/>
+  </g>
+
+  <!-- BACK RANGE -->
+  <path d="M0,258 L120,180 L215,238 L330,140 L430,225 L545,150 L660,240 L790,158 L900,232 L1030,146 L1140,228 L1265,168 L1400,244 L1400,420 L0,420 Z" fill="url(#mBack)"/>
+  <g fill="#eef7ff" opacity="0.9">
+    <path d="M330,140 L368,172 L346,168 L328,182 L306,166 L296,169 Z"/>
+    <path d="M545,150 L580,180 L558,175 L542,190 L522,175 L510,178 Z"/>
+    <path d="M1030,146 L1066,178 L1043,172 L1027,188 L1006,172 L995,175 Z"/>
+    <path d="M790,158 L820,184 L802,180 L788,192 L770,180 Z"/>
+  </g>
+
+  <!-- MID RANGE -->
+  <path d="M0,312 L150,222 L268,296 L400,196 L525,290 L650,210 L780,300 L920,206 L1050,292 L1185,218 L1400,306 L1400,420 L0,420 Z" fill="url(#mMid)"/>
+  <g fill="#f4faff" opacity="0.95">
+    <path d="M400,196 L446,238 L420,232 L398,250 L372,232 L358,236 Z"/>
+    <path d="M920,206 L962,246 L938,240 L916,258 L892,240 L878,244 Z"/>
+    <path d="M150,222 L186,254 L164,249 L148,264 L128,250 Z"/>
+    <path d="M1185,218 L1222,252 L1199,246 L1183,262 L1161,247 Z"/>
+  </g>
+
+  <!-- MIST (slow horizontal drift) -->
+  <g filter="url(#soft)" opacity="0.5">
+    <ellipse cx="300" cy="300" rx="260" ry="26" fill="#cfe9f7">
+      <animateTransform attributeName="transform" type="translate" values="-80 0;90 0;-80 0" dur="38s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1" keyTimes="0;.5;1"/>
+    </ellipse>
+    <ellipse cx="950" cy="318" rx="300" ry="30" fill="#dbeefb">
+      <animateTransform attributeName="transform" type="translate" values="70 0;-100 0;70 0" dur="46s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1" keyTimes="0;.5;1"/>
+    </ellipse>
+  </g>
+
+  <!-- FRONT RANGE -->
+  <path d="M0,372 L120,300 L240,356 L385,270 L520,352 L640,288 L775,360 L930,278 L1075,352 L1210,296 L1400,364 L1400,420 L0,420 Z" fill="url(#mFront)"/>
+  <g fill="#dcecf8" opacity="0.85">
+    <path d="M385,270 L424,306 L402,300 L384,316 L362,301 L350,304 Z"/>
+    <path d="M930,278 L966,312 L945,306 L928,321 L906,307 Z"/>
+  </g>
+
+  <!-- WIND STREAKS -->
+  <g stroke="#e6f6ff" stroke-width="2.4" stroke-linecap="round" fill="none">
+    <g>
+      <path d="M0,0 q45,-12 90,0 t90,0 t90,0"/>
+      <animateTransform attributeName="transform" type="translate" values="-300 120;1520 100" dur="8.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.55;0" keyTimes="0;0.5;1" dur="8.5s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <path d="M0,0 q55,-14 110,0 t110,0"/>
+      <animateTransform attributeName="transform" type="translate" values="-260 205;1520 190" dur="10.5s" begin="2.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.45;0" keyTimes="0;0.5;1" dur="10.5s" begin="2.2s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <path d="M0,0 q40,-10 80,0 t80,0 t80,0 t80,0"/>
+      <animateTransform attributeName="transform" type="translate" values="-340 288;1520 300" dur="12s" begin="4.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.4;0" keyTimes="0;0.5;1" dur="12s" begin="4.6s" repeatCount="indefinite"/>
+    </g>
+  </g>
+
+  <!-- SNOW (3 parallax layers, seamless loop) -->
+  <g fill="#ffffff">
+    <g opacity="0.9">
+      <g id="s1">
+        <circle cx="90" cy="30" r="2.6"/><circle cx="300" cy="150" r="2.2"/><circle cx="520" cy="60" r="2.7"/><circle cx="740" cy="200" r="2.2"/><circle cx="960" cy="90" r="2.6"/><circle cx="1180" cy="240" r="2.3"/><circle cx="1340" cy="120" r="2.6"/><circle cx="200" cy="330" r="2.3"/><circle cx="640" cy="360" r="2.6"/><circle cx="1080" cy="390" r="2.2"/>
+      </g>
+      <use href="#s1" y="-420"/>
+      <animateTransform attributeName="transform" type="translate" values="0 0;28 420" dur="11s" repeatCount="indefinite"/>
+    </g>
+    <g opacity="0.6">
+      <g id="s2">
+        <circle cx="150" cy="80" r="1.8"/><circle cx="380" cy="220" r="1.6"/><circle cx="600" cy="130" r="1.9"/><circle cx="830" cy="40" r="1.6"/><circle cx="1050" cy="180" r="1.8"/><circle cx="1260" cy="70" r="1.6"/><circle cx="470" cy="340" r="1.8"/><circle cx="920" cy="310" r="1.6"/><circle cx="1360" cy="280" r="1.8"/>
+      </g>
+      <use href="#s2" y="-420"/>
+      <animateTransform attributeName="transform" type="translate" values="0 0;-22 420" dur="16s" repeatCount="indefinite"/>
+    </g>
+    <g opacity="0.35">
+      <g id="s3">
+        <circle cx="60" cy="120" r="1.2"/><circle cx="260" cy="40" r="1.1"/><circle cx="450" cy="260" r="1.2"/><circle cx="700" cy="100" r="1.1"/><circle cx="880" cy="250" r="1.2"/><circle cx="1120" cy="140" r="1.1"/><circle cx="1300" cy="330" r="1.2"/><circle cx="560" cy="390" r="1.1"/>
+      </g>
+      <use href="#s3" y="-420"/>
+      <animateTransform attributeName="transform" type="translate" values="0 0;16 420" dur="22s" repeatCount="indefinite"/>
+    </g>
+  </g>
+
+  <!-- MEADOW -->
+  <path d="M0,420 L0,388 Q 240,368 470,384 Q 720,398 960,380 Q 1190,366 1400,386 L1400,420 Z" fill="url(#meadow)"/>
+
+  <!-- FLOWERS (swaying) -->
+  <g stroke-linecap="round">
+    <g>
+      <animateTransform attributeName="transform" type="rotate" values="-5 96 404;5 96 404;-5 96 404" dur="3.8s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1" keyTimes="0;.5;1"/>
+      <path d="M96,404 q-3,-16 1,-26" stroke="#3f7d5a" stroke-width="2.5" fill="none"/>
+      <g transform="translate(97,376)"><circle r="4" fill="#ffd166"/><circle cx="0" cy="-6.5" r="4" fill="#f9a8d4"/><circle cx="6" cy="-2" r="4" fill="#f9a8d4"/><circle cx="4" cy="5.5" r="4" fill="#f9a8d4"/><circle cx="-4" cy="5.5" r="4" fill="#f9a8d4"/><circle cx="-6" cy="-2" r="4" fill="#f9a8d4"/></g>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="rotate" values="4 178 408;-4 178 408;4 178 408" dur="4.4s" begin="0.6s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1" keyTimes="0;.5;1"/>
+      <path d="M178,408 q3,-14 -1,-23" stroke="#3f7d5a" stroke-width="2.4" fill="none"/>
+      <g transform="translate(177,383)"><circle r="3.6" fill="#ffd166"/><circle cx="0" cy="-6" r="3.6" fill="#c4b5fd"/><circle cx="5.5" cy="-1.8" r="3.6" fill="#c4b5fd"/><circle cx="3.6" cy="5" r="3.6" fill="#c4b5fd"/><circle cx="-3.6" cy="5" r="3.6" fill="#c4b5fd"/><circle cx="-5.5" cy="-1.8" r="3.6" fill="#c4b5fd"/></g>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="rotate" values="-4 1236 406;4 1236 406;-4 1236 406" dur="4.1s" begin="1.1s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1" keyTimes="0;.5;1"/>
+      <path d="M1236,406 q-3,-15 1,-24" stroke="#3f7d5a" stroke-width="2.5" fill="none"/>
+      <g transform="translate(1237,380)"><circle r="3.8" fill="#ffd166"/><circle cx="0" cy="-6.2" r="3.8" fill="#fda4af"/><circle cx="5.8" cy="-2" r="3.8" fill="#fda4af"/><circle cx="3.8" cy="5.2" r="3.8" fill="#fda4af"/><circle cx="-3.8" cy="5.2" r="3.8" fill="#fda4af"/><circle cx="-5.8" cy="-2" r="3.8" fill="#fda4af"/></g>
+    </g>
+    <g>
+      <animateTransform attributeName="transform" type="rotate" values="5 1322 410;-5 1322 410;5 1322 410" dur="3.5s" begin="0.3s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1" keyTimes="0;.5;1"/>
+      <path d="M1322,410 q3,-13 -1,-21" stroke="#3f7d5a" stroke-width="2.3" fill="none"/>
+      <g transform="translate(1321,387)"><circle r="3.4" fill="#ffd166"/><circle cx="0" cy="-5.6" r="3.4" fill="#f9a8d4"/><circle cx="5.2" cy="-1.7" r="3.4" fill="#f9a8d4"/><circle cx="3.4" cy="4.7" r="3.4" fill="#f9a8d4"/><circle cx="-3.4" cy="4.7" r="3.4" fill="#f9a8d4"/><circle cx="-5.2" cy="-1.7" r="3.4" fill="#f9a8d4"/></g>
+    </g>
+  </g>
+
+  <!-- BUTTERFLIES (flying along curved paths, wings flapping) -->
+  <g>
+    <g>
+      <animateMotion dur="17s" repeatCount="indefinite" rotate="0"
+        path="M180,360 C 320,300 460,380 620,330 C 780,285 920,360 1080,320 C 1180,296 1240,330 1290,310 C 1180,350 900,300 700,350 C 500,395 320,330 180,360 Z"/>
+      <g transform="scale(1.15)">
+        <ellipse cx="0" cy="0" rx="1.6" ry="5" fill="#4a3728"/>
+        <g fill="#fbbf24" stroke="#b45309" stroke-width="0.6">
+          <path d="M0,-2 C -10,-9 -13,1 -2,3 C -11,4 -8,11 0,4 Z">
+            <animateTransform attributeName="transform" type="scale" values="1 1;0.25 1;1 1" dur="0.34s" repeatCount="indefinite"/>
+          </path>
+          <path d="M0,-2 C 10,-9 13,1 2,3 C 11,4 8,11 0,4 Z">
+            <animateTransform attributeName="transform" type="scale" values="1 1;0.25 1;1 1" dur="0.34s" repeatCount="indefinite"/>
+          </path>
+        </g>
+      </g>
+    </g>
+    <g>
+      <animateMotion dur="21s" begin="3s" repeatCount="indefinite" rotate="0"
+        path="M1250,340 C 1100,300 950,370 800,330 C 650,295 500,365 350,335 C 250,315 180,345 130,330 C 300,370 600,310 850,355 C 1050,390 1180,320 1250,340 Z"/>
+      <g transform="scale(0.95)">
+        <ellipse cx="0" cy="0" rx="1.5" ry="4.6" fill="#3b2f3d"/>
+        <g fill="#f9a8d4" stroke="#be185d" stroke-width="0.6">
+          <path d="M0,-2 C -9,-8 -12,1 -2,3 C -10,4 -7,10 0,4 Z">
+            <animateTransform attributeName="transform" type="scale" values="1 1;0.3 1;1 1" dur="0.4s" repeatCount="indefinite"/>
+          </path>
+          <path d="M0,-2 C 9,-8 12,1 2,3 C 10,4 7,10 0,4 Z">
+            <animateTransform attributeName="transform" type="scale" values="1 1;0.3 1;1 1" dur="0.4s" repeatCount="indefinite"/>
+          </path>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- TITLE (staged entrance: hero first, subtitle follows) -->
+  <g font-family="Trebuchet MS, Verdana, sans-serif" text-anchor="middle">
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="1.1s" begin="0.4s" fill="freeze" calcMode="spline" keySplines=".05 .7 .1 1" keyTimes="0;1"/>
+      <animateTransform attributeName="transform" type="translate" values="0 18;0 0" dur="1.1s" begin="0.4s" fill="freeze" calcMode="spline" keySplines=".05 .7 .1 1" keyTimes="0;1"/>
+      <text x="700" y="150" font-size="78" font-weight="bold" letter-spacing="16" fill="url(#tx)">ARVIND</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="1s" begin="1.1s" fill="freeze" calcMode="spline" keySplines=".05 .7 .1 1" keyTimes="0;1"/>
+      <animateTransform attributeName="transform" type="translate" values="0 12;0 0" dur="1s" begin="1.1s" fill="freeze" calcMode="spline" keySplines=".05 .7 .1 1" keyTimes="0;1"/>
+      <text x="700" y="192" font-size="20" letter-spacing="6" fill="#d4ecfa">FULL-STACK DEVELOPER · AUTOMATION · AI</text>
+    </g>
+  </g>
+</svg>

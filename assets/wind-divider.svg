@@ -1,0 +1,24 @@
+<svg viewBox="0 0 1200 46" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="wind divider">
+  <g stroke="#38bdf8" stroke-width="2" stroke-linecap="round" fill="none">
+    <g opacity="0">
+      <path d="M0,0 q40,-9 80,0 t80,0 t80,0"/>
+      <animateTransform attributeName="transform" type="translate" values="-260 24;1300 20" dur="7s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.7;0" keyTimes="0;0.5;1" dur="7s" repeatCount="indefinite"/>
+    </g>
+    <g opacity="0">
+      <path d="M0,0 q50,-11 100,0 t100,0"/>
+      <animateTransform attributeName="transform" type="translate" values="-220 34;1300 30" dur="9s" begin="2.4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.5;0" keyTimes="0;0.5;1" dur="9s" begin="2.4s" repeatCount="indefinite"/>
+    </g>
+  </g>
+  <g fill="#7dd3fc">
+    <circle r="2.2">
+      <animateMotion dur="8s" repeatCount="indefinite" path="M-40,12 q300,14 620,4 t660,10"/>
+      <animate attributeName="opacity" values="0;0.9;0" keyTimes="0;0.5;1" dur="8s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="1.6">
+      <animateMotion dur="11s" begin="3s" repeatCount="indefinite" path="M-40,30 q340,-12 640,-2 t640,8"/>
+      <animate attributeName="opacity" values="0;0.7;0" keyTimes="0;0.5;1" dur="11s" begin="3s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>
