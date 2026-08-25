@@ -61,7 +61,7 @@ open_to:
 
 <div align="center">
 
-<img width="340" src="assets/journey.gif" alt="Walking through a wildflower meadow toward the ice mountain" />
+<img width="340" src="assets/journey.webp" alt="Walking through a wildflower meadow toward the ice mountain" />
 
 <br/>
 
