@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="1200" height="380" role="img" aria-label="Hi, I'm Arvind.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0f1b2d"/><stop offset=".5" stop-color="#132a3f"/><stop offset="1" stop-color="#1a2350"/></linearGradient>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="70"/></filter>
+    <clipPath id="frame"><rect width="1200" height="380" rx="32"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="380" fill="url(#bg)"/>
+    <g filter="url(#soft)" opacity=".34">
+      <circle cx="220" cy="90" r="170" fill="#22d3ee"><animate attributeName="cx" values="220;300;220" dur="16s" repeatCount="indefinite"/></circle>
+      <circle cx="980" cy="330" r="190" fill="#818cf8"><animate attributeName="cy" values="330;270;330" dur="19s" repeatCount="indefinite"/></circle>
+      <circle cx="640" cy="60" r="120" fill="#34d399"><animate attributeName="cx" values="640;560;640" dur="22s" repeatCount="indefinite"/></circle>
+    </g>
+    <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" text-anchor="middle">
+      <text x="600" y="118" font-size="24" font-weight="600" fill="#5eead4">Hi, I'm</text>
+      <text x="600" y="214" font-size="104" font-weight="800" fill="#f2f5fb" letter-spacing="-4">Arvind</text>
+      <path d="M452 240 C520 262, 680 262, 748 240" fill="none" stroke="#5eead4" stroke-width="7" stroke-linecap="round" stroke-dasharray="320" stroke-dashoffset="320"><animate attributeName="stroke-dashoffset" values="320;0" dur="1.4s" begin="0.4s" fill="freeze"/></path>
+      <g font-size="19" font-weight="600" fill="#dbe4f3">
+        <rect x="372" y="292" width="140" height="42" rx="21" fill="#ffffff" fill-opacity=".08"/><text x="442" y="319">Clayshell</text>
+        <rect x="530" y="292" width="140" height="42" rx="21" fill="#ffffff" fill-opacity=".08"/><text x="600" y="319">OpenDMG</text>
+        <rect x="688" y="292" width="140" height="42" rx="21" fill="#ffffff" fill-opacity=".08"/><text x="758" y="319">still learning</text>
+      </g>
+    </g>
+  </g>
+</svg>
