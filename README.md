@@ -18,9 +18,9 @@
 
 <table>
 <tr>
-<td width="46%"><a href="https://clayshell.opendmg.app"><img src="https://raw.githubusercontent.com/aarvnd/Clayshell/main/assets/hero.gif" width="100%" alt="Clayshell: a prompt grows into a terminal, files, monitoring and a lock"></a></td>
+<td width="46%"><a href="https://clayshell.opendmg.app"><img src="assets/clayshell.webp" width="100%" alt="Clayshell: a prompt grows into a terminal, files, monitoring and a lock"></a></td>
 <td valign="middle">
-<h3><img src="https://raw.githubusercontent.com/aarvnd/Clayshell/main/assets/icon.png" width="34" align="top" alt=""> &nbsp;Clayshell</h3>
+<h3><img src="assets/clayshell-icon.png" width="34" align="top" alt=""> &nbsp;Clayshell</h3>
 <p>An app for Mac and iPhone to look after your servers: a terminal, files, monitoring and alerts in one place. It asks for no account and collects nothing.</p>
 <p><sub>Version 1.0 is in App Review.</sub></p>
 <p><a href="https://clayshell.opendmg.app"><b>See it →</b></a> &nbsp;&nbsp;&nbsp; <a href="https://github.com/aarvnd/Clayshell">GitHub</a></p>
@@ -28,12 +28,12 @@
 </tr>
 <tr>
 <td valign="middle">
-<h3><img src="https://raw.githubusercontent.com/aarvnd/OpenDMG/main/assets/icon-256.png" width="34" align="top" alt=""> &nbsp;OpenDMG</h3>
+<h3><img src="assets/opendmg-icon.png" width="34" align="top" alt=""> &nbsp;OpenDMG</h3>
 <p>A free store for open source Mac apps. Browse more than 1,000 apps and install one with a click.</p>
 <p><sub>Out now for the Mac.</sub></p>
 <p><a href="https://opendmg.app"><b>See it →</b></a> &nbsp;&nbsp;&nbsp; <a href="https://github.com/aarvnd/OpenDMG">GitHub</a></p>
 </td>
-<td width="46%"><a href="https://opendmg.app"><img src="https://raw.githubusercontent.com/aarvnd/OpenDMG/main/assets/home.png" width="100%" alt="OpenDMG: the home screen of the store"></a></td>
+<td width="46%"><a href="https://opendmg.app"><img src="assets/opendmg.webp" width="100%" alt="OpenDMG: the home screen of the store"></a></td>
 </tr>
 </table>
 
