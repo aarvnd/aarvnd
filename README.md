@@ -22,7 +22,7 @@
 <td valign="middle">
 <h3><img src="assets/clayshell-icon.png" width="34" align="top" alt=""> &nbsp;Clayshell</h3>
 <p>An app for Mac and iPhone to look after your servers: a terminal, files, monitoring and alerts in one place. It asks for no account and collects nothing.</p>
-<p><sub>Version 1.0 is in App Review.</sub></p>
+
 <p><a href="https://apps.apple.com/app/clayshell/id6819172609"><b>App Store →</b></a> &nbsp;&nbsp;&nbsp; <a href="https://clayshell.opendmg.app">Website</a> &nbsp;&nbsp;&nbsp; <a href="https://github.com/aarvnd/Clayshell">GitHub</a></p>
 </td>
 </tr>
